@@ -1,0 +1,42 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with`a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Diario delle lezioni Algoritmi 2}
+\author{Alex}
+
+\begin{document}
+\maketitle
+
+\section{Settimana}
+
+\textbf{21 Febbraio 2022} (Lunedì):\\ Presentazione del corso
+Introduzione al pensiero computazionale, e alla definizione di algoritmo. L'interesse per lo studio della correttezza e dell'efficienza degli algoritmi.
+Abbiamo dato le informazioni di base riguardo i libri di testo, la modalità di esame e i contenuti del corso.
+Come caso di studio abbiamo visto il problema della moltiplicazione di due matrice quadrate, e abbiamo discusso l'algoritmo standard e l'algoritmo di Strassen (vedi sezione 4.2 del libro di testo).\\
+\\\textbf{24 Febbraio 2022} (Giovedì):\\ SAT, complessità dei problemi e intrattabilità
+Vediamo un altro caso di studio, il problema della soddisfacibilità delle formule CNF (vedi allegato alla lezione)
+Discutiamo poi altri preliminari come le notazioni asintotiche, la complessità degli algoritmi e dei problemi. In questo contesto vediamo i pochi metodi noti per dimostrare che un problema non può avere algoritmi di una certa complessità. Questo ci porta a discutere d'intrattabilità, e a menzionare la testi di Church-Turing (standard ed estesa). Precisiamo poi il modello di calcolo che usiamo per valutare la complessità degli algoritmi.\\
+\\\textbf{25 Febbraio 2022} (Venerdì): \\Grafi, la loro rappresentazione e l'algoritmo BFS (visita in ampiezza)
+Introduciamo nozioni standard sui grafi (vedi Appendici B.4 e B.5 sul libro di testo) e discutiamo di come possano essere rappresentati i grafi in modo da poter essere elaborati in algoritmi (capitolo 22.1 del libro di testo).
+Discutiamo poi la visita di grafi (semplici o diretti) per ampiezza (vedi capitolo 22.2 del libro di testo e allegati alla lezione)
+
+\section{Settimana}
+\\\textbf{28 Febbraio 2022} (Lunedì): \\Esercitazione\\
+\\\textbf{3 Marzo 2022}(Giovedì): \\Complessità e Correttezza della BFS, descrizione di DFS
+Completiamo la discussione sulla BFS, analizzando la complessità e dimostrando la correttezza dell'algoritmo. Introduciamo poi un altro algoritmo di visita, quello della visita in profondità.\\
+\\\textbf{4 Marzo 2022} (Venerdì): \\Complessità e Caratteristiche della DFS, ordinamento topologico
+Riprendiamo la discussione della DFS (visita in profondità). Dimostriamo che la complessità è O(|V|+|E|), e poi dimostriamo alcune importanti proprietà (ad esempio il Teorema delle Parentesi e il Teorema del Cammino Bianco). Discutiamo la classificazione degli archi del grafo in base all'esito della DFS. Vediamo che la DFS può verificare la presenza di cicli in un grafo orientato e, nel caso di grafi aciclici, può calcolarne un ordinamento topologico.
+
+\end{document}
